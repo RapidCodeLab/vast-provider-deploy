@@ -13,6 +13,8 @@ services:
     volumes:
       - ./conf/nginx:/etc/nginx
       - ./video:/var/www/video
+      - /etc/letsencrypt:/etc/letsencrypt
+      - /var/www/certbot:/var/www/certbot  
     depends_on:
       - vast-provider
   vast-provider:
