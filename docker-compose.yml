@@ -31,4 +31,4 @@ services:
     environment:
       SERVER_LISTEN_NETWORK: tcp4
       SERVER_LISTEN_ADDR: :8080
-      BASE_URL: http://rtb.roiconnector.xyz      
+      BASE_URL: https://video.roiconnector.xyz      
