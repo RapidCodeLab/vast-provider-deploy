@@ -17,7 +17,7 @@ services:
       - vast-provider
   vast-provider:
     container_name: vast-provider
-    image: prebidlab/vast-provider:0.0.5
+    image: prebidlab/vast-provider:0.0.6
     logging:
       options:
         max-size: "500"
