@@ -10,6 +10,7 @@ services:
     restart: always 
     ports:
       - "80:80"
+      - "443:443"  
     volumes:
       - ./conf/nginx:/etc/nginx
       - ./video:/var/www/video
@@ -31,4 +32,4 @@ services:
     environment:
       SERVER_LISTEN_NETWORK: tcp4
       SERVER_LISTEN_ADDR: :8080
-      BASE_URL: https://video.roiconnector.xyz      
+      BASE_URL: https://rtb.roiconnector.xyz      
